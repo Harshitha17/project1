@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity{
                         if(!titleET.getText().toString().isEmpty() &&
                                 !descriptionET.getText().toString().isEmpty())
                         {
-                            //Updating information in DB just like insering.
+                            //Updating information in DB just like inserting.
                             Entry updatedEntry=new Entry();
                             updatedEntry.entry_ID=entry.entry_ID;
                             updatedEntry.title=titleET.getText().toString();
