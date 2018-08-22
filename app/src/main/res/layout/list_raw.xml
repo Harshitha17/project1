@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:background="#00AFFF" android:textColor="#000000" android:textStyle="bold" android:gravity="center" android:textSize="25dp" android:id="@+id/head_date"/>
+
+
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="0dp" android:orientation="vertical" android:layout_marginLeft="10dp" android:layout_weight="0.9">
+
+    <TextView android:layout_height="0dp" android:layout_width="match_parent" android:textColor="#000000" android:textSize="25dp" android:id="@+id/title_tv" android:layout_weight="1" android:layout_marginTop="5dp"/>
+
+    <TextView android:layout_height="0dp" android:layout_width="match_parent" android:textColor="#000000" android:textSize="25dp" android:id="@+id/decription_tv" android:layout_weight="1" android:layout_marginTop="5dp"/>
+
+    <TextView android:layout_height="0dp" android:layout_width="match_parent" android:textColor="#000000" android:textSize="25dp" android:id="@+id/tale_date" android:layout_weight="1" android:layout_marginTop="5dp"/>
+
+</LinearLayout>
+
+    <ImageView android:layout_height="56dp" android:layout_width="0dp" android:id="@+id/completion_status" android:layout_marginLeft="30dp" android:layout_weight="0.1" android:layout_marginTop="30dp" android:layout_marginBottom="30dp" android:layout_marginRight="10dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
